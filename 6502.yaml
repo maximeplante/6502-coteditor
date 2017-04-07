@@ -1,0 +1,139 @@
+metadata: {}
+commands: []
+keywords:
+- beginString: "ADC"
+  ignoreCase: true
+- beginString: "AND"
+  ignoreCase: true
+- beginString: "ASL"
+  ignoreCase: true
+- beginString: "BCC"
+  ignoreCase: true
+- beginString: "BCS"
+  ignoreCase: true
+- beginString: "BEQ"
+  ignoreCase: true
+- beginString: "BIT"
+  ignoreCase: true
+- beginString: "BMI"
+  ignoreCase: true
+- beginString: "BNE"
+  ignoreCase: true
+- beginString: "BPL"
+  ignoreCase: true
+- beginString: "BRK"
+  ignoreCase: true
+- beginString: "BVC"
+  ignoreCase: true
+- beginString: "BVS"
+  ignoreCase: true
+- beginString: "CLC"
+  ignoreCase: true
+- beginString: "CLD"
+  ignoreCase: true
+- beginString: "CLI"
+  ignoreCase: true
+- beginString: "CLV"
+  ignoreCase: true
+- beginString: "CMP"
+  ignoreCase: true
+- beginString: "CPX"
+  ignoreCase: true
+- beginString: "CPY"
+  ignoreCase: true
+- beginString: "DEC"
+  ignoreCase: true
+- beginString: "DEX"
+  ignoreCase: true
+- beginString: "DEY"
+  ignoreCase: true
+- beginString: "EOR"
+  ignoreCase: true
+- beginString: "INC"
+  ignoreCase: true
+- beginString: "INX"
+  ignoreCase: true
+- beginString: "INY"
+  ignoreCase: true
+- beginString: "JMP"
+  ignoreCase: true
+- beginString: "JSR"
+  ignoreCase: true
+- beginString: "LDA"
+  ignoreCase: true
+- beginString: "LDX"
+  ignoreCase: true
+- beginString: "LDY"
+  ignoreCase: true
+- beginString: "LSR"
+  ignoreCase: true
+- beginString: "NOP"
+  ignoreCase: true
+- beginString: "ORA"
+  ignoreCase: true
+- beginString: "PHA"
+  ignoreCase: true
+- beginString: "PHP"
+  ignoreCase: true
+- beginString: "PLA"
+  ignoreCase: true
+- beginString: "PLP"
+  ignoreCase: true
+- beginString: "ROL"
+  ignoreCase: true
+- beginString: "ROR"
+  ignoreCase: true
+- beginString: "RTI"
+  ignoreCase: true
+- beginString: "RTS"
+  ignoreCase: true
+- beginString: "SBC"
+  ignoreCase: true
+- beginString: "SEC"
+  ignoreCase: true
+- beginString: "SED"
+  ignoreCase: true
+- beginString: "SEI"
+  ignoreCase: true
+- beginString: "STA"
+  ignoreCase: true
+- beginString: "STX"
+  ignoreCase: true
+- beginString: "STY"
+  ignoreCase: true
+- beginString: "TAX"
+  ignoreCase: true
+- beginString: "TAY"
+  ignoreCase: true
+- beginString: "TSX"
+  ignoreCase: true
+- beginString: "TXA"
+  ignoreCase: true
+- beginString: "TXS"
+  ignoreCase: true
+- beginString: "TYA"
+  ignoreCase: true
+values:
+- beginString: "#[:graph:]+"
+  regularExpression: true
+filenames: []
+types: []
+numbers: []
+attributes:
+- beginString: "^[A-z]+:"
+  regularExpression: true
+outlineMenu: []
+interpreters: []
+variables:
+- beginString: "\\$[0-9A-F]+"
+  ignoreCase: true
+  regularExpression: true
+characters: []
+extensions:
+- keyString: "a65"
+- keyString: "asm"
+comments: []
+completions: []
+strings: []
+commentDelimiters:
+  inlineDelimiter: ";"
